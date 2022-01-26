@@ -1,0 +1,3 @@
+﻿http://localhost:8080/auth/realms/master/protocol/openid-connect/auth
+http://localhost:8080/auth/realms/master/protocol/openid-connect/token
+ftc-spa-client

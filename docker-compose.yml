@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  keycloaksample:
+    image: ${DOCKER_REGISTRY-}keycloaksample
+    build:
+      context: .
+      dockerfile: KeycloakSample/Dockerfile
+volumes:
+  postgres_data:
